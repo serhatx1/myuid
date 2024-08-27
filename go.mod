@@ -1,3 +1,2 @@
-module github.com/serhatx1/uid
-
+module UID
 go 1.23.0

@@ -1,14 +1,9 @@
-package main
+package uid
 
 import (
 	"math/rand"
 	"time"
 )
-
-func main() {
-	randomIdGenerator()
-
-}
 
 func randomIdGenerator() int64 {
 	nanscnd := time.Now().UnixNano() % 10000000

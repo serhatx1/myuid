@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func randomIdGenerator() int64 {
+func RandomIdGenerator() int64 {
 	nanscnd := time.Now().UnixNano() % 10000000
 	time.Sleep(1 * time.Millisecond)
 	nanscnd2 := time.Now().UnixNano() % 10000000

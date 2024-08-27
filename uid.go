@@ -1,4 +1,4 @@
-package uid
+package myuid
 
 import (
 	"math/rand"
